@@ -1,0 +1,93 @@
+body{
+   background-image: url(cool-background.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    width: auto;
+    color:lavender;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;   
+}
+.navbar>div{
+    margin: 20px;
+}
+.logo{
+    height: 64px;
+    width: 120px;
+}
+.bttn{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:gold;
+    font-weight:bolder;
+    border: none;
+    display: flex;
+    flex-grow: 1;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+}
+.footers{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bttns{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:greenyellow;
+    font-weight:bolder;
+    border: none;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 40px;
+}
+.bttns:hover{
+    background-color: darkmagenta;
+}
+.hhh{
+    font-size: 70px;
+    color: deeppink;
+}
+.h1h1{
+    display: flex;
+    flex-grow: 5;
+}
+.bttn:hover{
+    background-color: darkorange;
+}
+h2:hover{
+    color:orangered;
+}
+.container{
+    margin: 150px 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: 900;
+    width: 700px;
+}
+hr{
+    width: 10%;
+    size: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 5px;
+    display: flex;
+    margin-left:0px ;
+    border-style:solid;
+    border-color: #fff;
+    border-radius: 5px;
+}
